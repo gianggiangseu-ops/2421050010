@@ -1,17 +1,140 @@
-/* h3
-    {
-        color: green;
-        background-color: yellow;
+ body{
+            margin: 0px;
     }
+.menu{
+        background-color: #2fa4e7;
+        margin: 0;
+            }
+        .danh-sach-muc{
+            /* bỏ dấu chấm của list */
+            list-style-type: none;
+            font-weight: bold;
+            display: flex;
+            margin: 0px;
+            /* set các đối tượng bọc ơ  trong khối 1 cách tự động cách nhau 1 khoảng = giá trị truyền vào */
+            gap: 15px;
+        }
+         
+        .muc{        
+        padding: 10px;
+        }
+        a{
+            color: white;
+            /* để bỏ gạch chân của liên kết text-decoration: none; */
+            text-decoration: none;
+        }
+        
+         main{
+            display: flex;
+        }
+        .khoi-trai{
+            width: 20%;
+            height: 90vh;
+            /* để vẽ viền dùng border sẽ có thêm 3 tham số(độ dày, loại đường viền, màu sắc) */
+            border-right: 1px solid #2fa4e7;
+        }
+        
+        p{
+            margin: 0px;
+        }
+        input{
+            width: 100%;
+            padding: 10px 0;
+            border-radius: 5px;
+            border: 1px solid 
+        }
+        .khoi-dang-nhap{
+            width: 90%;
+            height: 300px;
+            /* nếu margin để auto thì sẽ canh giữa  */
+            margin: 10px auto;
+        }
+        .thong-tin{
+            margin: 1px;
+            width: 97%;
+            margin-bottom: 10px;
+        }
+        .quen-mk{
+          
+        }
+        .lien-ket-quen-mk{
+             display: flex;
+            justify-content: flex-end;
+            text-decoration: none;
+            color: #2fa4e7;
+        }
+        button{
+            width: 100%;
+            padding: 10px 0;
+            margin-top: 10px;
+            border-radius: 5px;
+            border: 1px solid #dedede;
+            color: white;
+        }
+        .dang-nhap{
+            background-color: #2fa4e7; ;
+        }
+        .dang-nhap-356{
+            background-color: #1877ae;
+        }
+        .khoi-phai{
+            width:80%;
+            height: 500px;
+        }
+        .tin{
+            width: 95%;
+            height: 300px;
+            margin: 20px auto;
+            border: 1px solid #2fa4e7;
+            border-radius: 5px;
+        }
+        .tin-tren{
+            width: 95%;
+            margin: auto;
+            border-bottom: 1px solid #2fa4e7; 
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        h3{
+            margin: 0;
+        }
+        .xem-tiep{
+            text-decoration: none;
+            color: #2fa4e7;
+        }
+       .danh-sach-tin{
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+       }
+       .bai-viet{
+        width: 25%;
+        margin-right: 20px;
 
-#tieude-1{
-    background-color: red;
-}    
-.tieude-2{
-    background-color: blue;
-} 
-div.web4{
-    color: red;
-    background-color: yellow;
-} */
+       }
+       .bai-viet-khoi-anh{
+        width: 100%;
+
+       }
+       .bai-viet-thoi-gian{
+        display: flex;
+        justify-content: flex-end;
+       }
+       img{
+        width: 100%;
+        height: 20vh;
+        border-radius: 10px;
+       }
+       .thong-bao{
+
+       }
+       .danh-sach-thong-bao{
+        width: 95%;
+        margin: auto;
+        padding: 10px;
+        display: flex;
+       }
+       
 

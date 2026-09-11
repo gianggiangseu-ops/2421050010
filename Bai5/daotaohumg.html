@@ -4,48 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Đào tạo HUMG</title>
-    <style>
-        .menu{
-            background-color: #2fa4e7;
-            margin: 0;
-        }
-        .danh-sach-muc{
-            /* bỏ dấu chấm của list */
-            list-style-type: none;
-            font-weight: bold;
-            margin: 0;
-            display: flex;
-            
-        }
-        .muc{        
-        padding: 10px;
-        }
-        a{
-            color: white;
-            /* để bỏ gạch chân của liên kết text-decoration: none; */
-            text-decoration: none;
-        }
-        
-         main{
-            display: flex;
-        }
-        .khoi-trai{
-            width: 20%;
-            height: 500px;
-        }
-        .khoi-phai{
-            background-color: green;
-            width:80%;
-            height: 500px;
-        }
-
-        .dang-nhap{
-
-        .khoi{
-            margin: 0;
-            width: 95%;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Thanh menu -->
@@ -60,30 +19,176 @@
     <!-- Nội dung chính -->
      <main>
         <div class="khoi-trai">
-              <div class="dang-nhap">
+              <div class="khoi-dang-nhap">
                 <form  >
                     <div> 
-                        <p class="khoi">Tài khoản</p>
-                    <input type="text" style="width: 90%" >
-                    <p class="khoi">Mật khẩu </p>
-                    <input type="password" style="width: 90%">
+                        <p class="thong-tin">Tài khoản</p>
+                    <input type="text">
                     </div>
+                    <div>
+                        <p class="thong-tin">Mật khẩu </p>
+                        <input type="password">
+                    </div>
+                    <div class="quem-mk">
+                        <i>
+                            <a class="lien-ket-quen-mk" href="#"> Quên mật khẩu?</a>
+                        </i>
                     
-                    <div>
-                        <button class="khoi">Đăng nhập</button>
+                    </div>
+                    <div class=""chuc-nang-dang-nhap>
+                        <button class="dang-nhap">Đăng nhập</button>
                     </div>
                     <div>
-                        <button class="khoi">Đăng nhập với microsoft</button>
+                        <button class="dang-nhap-356">Đăng nhập với Microsoft Office</button>
                     </div>
                 </form>
             </div>
             <div>
-                Logo
+                
             </div>
         </div>
           
-        <div class="khoi-phai"> Phải
+        <div class="khoi-phai">
+            <div class="tin">
+                <div class="tin-tren">
+                    <h3 class="tieu-de">Tin tức</h3>
+                    <p>
+                        <a class="xem-tiep" href="">Xem tiếp ></a>
+                    </p>
+                </div>
+                <div>
+                    <!-- DS Bài viết -->
+                    <div class="danh-sach-tin">
+                        <div class="bai-viet">
+                            <div class="bai-viet-khoi-anh">
+                                <img src="../anh/image.png" alt="">
+                            </div>
+                            <div class="bai-viet-thoi-gian"> 
+                                <p>05/05/2026</p>
+                            </div>
+                            <div> 
+                                <p> Về việc đăng kí khối lượng học tập học kì phụ năm học 2025-2026</p>
+                            </div>
+                        </div>
+                        <div class="bai-viet">
+                            <div class="bai-viet-khoi-anh">
+                                <img src="../anh/image.png">
+                            </div>
+                            <div class="bai-viet-thoi-gian"> 
+                                <p>05/05/2026</p>
+                            </div>
+                            <div> 
+                                <p> Về việc đăng kí khối lượng học tập học kì phụ năm học 2025-2026</p>
+                            </div>
+                        </div>
+                        <div class="bai-viet">
+                            <div class="bai-viet-khoi-anh">
+                                <img src="../anh/image.png">
+                            </div>
+                            <div class="bai-viet-thoi-gian"> 
+                                <p>05/05/2026</p>
+                            </div>
+                            <div> 
+                                <p> Về việc đăng kí khối lượng học tập học kì phụ năm học 2025-2026</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
+            <div>
+                <!-- Thong báo  -->
+                <div class="tin">
+                <div class="tin-tren">
+                    <h3 class="tieu-de">Thông báo</h3>
+                    <p>
+                        <a class="xem-tiep" href="">Xem tiếp ></a>
+                    </p>
+                </div>
+
+                <div class="trai">
+                    <!-- Thông báo ảnh  -->
+                <div class="danh-sach-thong-bao">
+                    <div class="bai-viet">
+                            <div class="bai-viet-khoi-anh">
+                                <img src="../anh/image.png" alt="">
+                            </div>
+                            <div class="bai-viet-thoi-gian"> 
+                                <p>05/05/2026</p>
+                            </div>
+                            <div> 
+                                <p> Về việc đăng kí khối lượng học tập học kì phụ năm học 2025-2026</p>
+                            </div>
+                        </div>
+                        <div class="bai-viet">
+                            <div class="bai-viet-khoi-anh">
+                                <img src="../anh/image.png">
+                            </div>
+                            <div class="bai-viet-thoi-gian"> 
+                                <p>05/05/2026</p>
+                            </div>
+                            <div> 
+                                <p> Về việc đăng kí khối lượng học tập học kì phụ năm học 2025-2026</p>
+                            </div>
+                </div>
+                
+                    <div class="phai">   
+                        <!-- Thong bao chữ  -->
+                    <div class="danh-sach-thong-bao">
+                        <div>
+                         <p>
+                            >> Thông báo về việc thực tập tốt nghiệp...
+                        </p>
+                        <p>
+                            >> Thông báo về việc thực tập tốt nghiệp...
+                        </p>
+                        <p>
+                            >> Thông báo về việc thực tập tốt nghiệp...
+                        </p>
+                        </div>
+                       
+                    </div>
+                        
+                    </div>
+                    </div>
+                    
+            </div>
+            <!-- Hướng dẫn  -->
+            <div>
+                <div class="tin">
+                <div class="tin-tren">
+                    <h3 class="tieu-de">Hướng dẫn</h3>
+                    <p>
+                        <a class="xem-tiep" href="">Xem tiếp ></a>
+                    </p>
+                </div>
+                <div class="danh-sach-tin">
+                        <div class="bai-viet">
+                            <div class="bai-viet-khoi-anh">
+                                <img src="../anh/image.png" alt="">
+                            </div>
+                            <div class="bai-viet-thoi-gian"> 
+                                <p>05/05/2026</p>
+                            </div>
+                            <div> 
+                                <p> Về việc đăng kí khối lượng học tập học kì phụ năm học 2025-2026</p>
+                            </div>
+                        </div>
+                        <div class="bai-viet">
+                            <div class="bai-viet-khoi-anh">
+                                <img src="../anh/image.png">
+                            </div>
+                            <div class="bai-viet-thoi-gian"> 
+                                <p>05/05/2026</p>
+                            </div>
+                            <div> 
+                                <p> Về việc đăng kí khối lượng học tập học kì phụ năm học 2025-2026</p>
+                            </div>
+                        </div>
+                       
+                        </div>
+                    </div>
+            </div>
         </div>
      </main>
 </body>
