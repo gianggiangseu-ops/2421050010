@@ -1,5 +1,6 @@
  body{
             margin: 0px;
+            
     }
 .menu{
         background-color: #2fa4e7;
@@ -29,7 +30,7 @@
         }
         .khoi-trai{
             width: 20%;
-            height: 90vh;
+            height: 170vh;
             /* để vẽ viền dùng border sẽ có thêm 3 tham số(độ dày, loại đường viền, màu sắc) */
             border-right: 1px solid #2fa4e7;
         }
@@ -45,7 +46,6 @@
         }
         .khoi-dang-nhap{
             width: 90%;
-            height: 300px;
             /* nếu margin để auto thì sẽ canh giữa  */
             margin: 10px auto;
         }
@@ -76,7 +76,17 @@
         }
         .dang-nhap-356{
             background-color: #1877ae;
+
         }
+        .khoi-trang{
+            border-bottom: 1px solid #2fa4e7;
+            padding: 10px;
+        }
+        .h{
+            color: #2fa4e7;
+            
+        }
+        
         .khoi-phai{
             width:80%;
             height: 500px;
@@ -136,5 +146,29 @@
         padding: 10px;
         display: flex;
        }
-       
+       .thong-bao-chu{
+        width: 50%;
+        border-left: 1px solid #dedede;
+        padding-left: 10px;
+       }
+       .thong-bao-chu-1{
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px solid #dedede;
+        padding: 10px;
+       }
+       .cai-dat{
+         width: 95%;
+            height: 250px;
+            margin: 20px auto;
+            border: 1px solid #2fa4e7;
+            border-radius: 5px;
+       }
+       .cai-dat-anh{
+        display: flex;
+        justify-content: space-around;
+       }
+       .anh-1{
+        padding: 5px;
+       }
 
