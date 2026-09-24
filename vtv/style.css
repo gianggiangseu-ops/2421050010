@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+}
+header{
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: red;
+}
+.danh-muc{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    background-color: aqua;
+    width: 50%;
+    height: 200px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+}
+.kenh{
+    width: 100%;
+}
+.kenh-truyen-hinh{
+    
+}
+.danh-sach-kenh{
+    display: flex;
+}
+
+.phim{
+    background-color: blue;
+    display: flex;
+    justify-content: space-between;
+   
+    width: 19%;
+    img{
+        width: 100%;
+        border-radius: 20px;
+    }
+}
